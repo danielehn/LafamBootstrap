@@ -1,0 +1,322 @@
+*{
+    padding: 30;
+    margin: 30;
+    box-sizing: border-box;
+}
+ /* INICIO DE CSS INDEX  */
+
+ 
+ 
+ 
+ body{   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../Logo/Logo-Lafam-uso-fondo-blanco.jpg);
+    
+} 
+
+
+.card img{
+    height: 250px;
+    width: 250px;
+
+}
+ 
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.Logo_header{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.grid-todo{
+    display: grid;
+}
+.article{
+    display: flex;
+    justify-content: stretch;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.337);
+    display: grid;
+    
+}
+
+
+nav ul {
+       display: flex;
+       line-height: 30px;
+       list-style: none;
+       margin: 10px;
+       gap: 20px;
+    }
+    .nav_link{
+        display: flex;
+        color: rgb(21, 125, 204); 
+    }
+.header{
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+.imagen-1{
+    width: 400px;
+    height: 350px;
+    border: none;
+}
+
+.Principio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Titulo-1{
+    margin-bottom: 2rem;
+    font-size: 40px;
+}
+.Texto-1{
+    color: rgb(0, 0, 0);
+}
+.boton-1{
+    margin-top: 2rem;
+    color: rgb(41, 37, 37);
+    background: rgb(228, 222, 213);
+    outline:none;
+    border: antiquewhite;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+}
+
+.boton-oft{    
+    
+    margin-top: 2rem;
+    color: rgb(41, 37, 37);
+    background: rgb(228, 222, 213);
+    outline:none;
+    border: antiquewhite;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+
+}
+
+.boton-sol{    margin-top: 2rem;
+    color: rgb(41, 37, 37);
+    background: rgb(228, 222, 213);
+    outline:none;
+    border: antiquewhite;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;}
+    
+    
+    .boton-sm{   margin-top: 2rem;
+        color: rgb(41, 37, 37);
+        background: rgb(228, 222, 213);
+        outline:none;
+        border: antiquewhite;
+        padding: 1rem 0.5rem;
+        border-radius: 5px;}
+        .Texto-div{
+            width: 53%;
+        }
+        
+        .info{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+
+.info-card{
+    display: grid;
+    width: 300px;
+    background-color: rgba(46, 157, 216, 0.713);
+    color: white;
+    border: 30px solid rgb(47, 151, 151);    
+    justify-content: center;
+    justify-items: center;
+    align-content: space-around;
+}
+
+/* FIN DE CSS DE INDEX */
+
+footer{
+    display: flex;
+    height: 20;
+    font-size: 20;
+    justify-content: space-evenly;
+    margin: 5rem;
+    padding: 5rem;
+    
+}
+
+
+/* CSS de contacto */
+
+.grid-Formulario{
+    display: grid;
+
+grid-template-columns: 2fr;
+grid-template-rows: 2fr;
+gap: 10;
+
+grid-template-areas: 
+"head head"
+"Formulario mapa"
+"footer footer"
+;
+}
+
+.Formulario{
+    display: grid;
+    width: 1px;
+    height: 1px;
+    text-align:left;
+    grid-area: Formulario;
+    grid-template-columns: repeat(2, 2fr);
+
+}
+
+.grid-Formulario img{
+    display: grid;
+    align-items: center;
+ 
+}
+.mapa{
+    display: grid;
+
+}
+
+.mapa img{
+    display: grid;  
+    width: 400px;
+    grid-area: mapa;
+}
+/* fin de CSS de Contacto */
+
+/* INICIO CSS DE GAFAS OFTALMICAS */
+
+.grid-oftalmico{
+    display: grid;
+
+    grid-template-columns: 3fr;
+    grid-template-rows: auto;
+    
+    grid-template-areas:
+    "Header Header"
+    "oftalmico oftalmico"
+    "footer footer";
+
+}
+.oftalmico{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10;
+    justify-items: center;
+    
+}
+
+.oftalmico article img{
+    display: flex;
+    width: 350px;
+    height: 250px;
+    border: solid black;
+    image-rendering: transparent;
+}
+
+
+.card-oft img{
+    width: 350px;
+    height: 250px;
+    border: solid black;
+}
+/* INICIO DE CSS DE GAFAS DE SOL */
+
+.Sol{
+    display: grid;
+
+    grid-template-columns: 2fr;
+    grid-template-rows: auto;
+    
+    grid-template-areas:
+    "Header Header"
+    "sol sol"
+    "footer footer";
+}
+
+
+.Gafas-Sol{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10;
+    justify-items: center;
+
+}
+
+
+.Gafas-Sol article{
+    width: 340px;
+    margin: 60px;
+    padding: 03px;
+    border: solid black;
+} 
+.Gafas-Sol article img {
+    display: flex;
+    width: 300px;
+    height: 250px;
+}
+
+  
+
+@media (max-width: 800px){
+    .header{
+      padding-left: 20px;  
+    }
+.grid-todo{
+    width: 50%;
+
+}
+
+.Principio{
+    width: 80%;
+    justify-content: left;
+}
+.imagen-1{
+    width: 60%;
+    
+}
+.grid-Formulario{
+    width: 40%;
+}
+.mapa img{
+    width: 50%;
+    align-items: flex-end;
+}
+    .Sol{
+        width: 2rem;
+   }
+}
+
+
+@media (max-width: 320px){
+    .header{
+       width: 100%;
+    }
+    
+    .Principio{
+        width: 0.3rem;
+    }
+
+}
